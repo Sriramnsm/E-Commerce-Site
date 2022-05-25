@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import './category-item.styles.scss';
 
 const CategoryItem = ({category}) => {
@@ -6,7 +5,6 @@ const CategoryItem = ({category}) => {
   const {imageUrl,title} = category;
   
   return (
-    <Fragment>
       <div className='category-container'>
           <div 
             className='background-image' 
@@ -19,7 +17,6 @@ const CategoryItem = ({category}) => {
             <p>Shop now</p>
           </div>
       </div>
-    </Fragment>
     );
 }
 
